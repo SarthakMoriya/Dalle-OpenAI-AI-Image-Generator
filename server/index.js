@@ -27,6 +27,6 @@ mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGODB_URL)
     .then(() => { console.log('MongoDB Connected!') })
 
-app.listen(5000, () => {
-    console.log("App listening on port:5000")
+app.listen(8080, () => {
+    console.log("App listening on port:8080")
 })
