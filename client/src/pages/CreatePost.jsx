@@ -57,7 +57,7 @@ const CreatePost = () => {
           method: "POST",
           headers: {
             "Content-type": "application/json",
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer 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`,
           },
           body: JSON.stringify({ prompt: form.prompt }),
         });

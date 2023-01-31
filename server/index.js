@@ -18,7 +18,7 @@ app.use('/api/v1/dalle', dalleRoutes)
 
 
 app.get('/', async (req, res) => {
-    res.send("AJI LUND MERA")
+    res.send("Hello")
 })
 
 
